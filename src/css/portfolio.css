@@ -1,0 +1,299 @@
+#portfolio {
+  background-color: black;
+}
+.portfolio__labels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio__labels a {
+  width: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+}
+
+.portfolio__container {
+  width: 100%;
+  margin-top: 40px;
+}
+.portfolio__container span {
+  padding: 5px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio__labels {}
+  .portfolio__labels a {
+    -webkit-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -moz-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -ms-animation: bounceInDown 900ms 200ms ease-in-out both;
+    -o-animation: bounceInDown 900ms 200ms ease-in-out both;
+    animation: bounceInDown 900ms 200ms ease-in-out both;
+    top: 0;
+		text-decoration: none;
+    padding-top: 9px;
+    outline-width: 0px;
+    z-index: 990;
+    text-align: center;
+    line-height: 26px;
+    display: block; }
+    .portfolio__labels a:not(.active) {
+      -webkit-box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      -moz-box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3b2751), color-stop(100%, #271739));
+      background-image: -webkit-linear-gradient(#3b2751, #271739);
+      background-image: -moz-linear-gradient(#3b2751, #271739);
+      background-image: -o-linear-gradient(#3b2751, #271739);
+      background-image: linear-gradient(#3b2751, #271739);
+      color: white;
+      text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47; }
+      .portfolio__labels a:not(.active):hover, .buttons a:not(.active):focus {
+        -webkit-transition: color 200ms linear;
+        -moz-transition: color 200ms linear;
+        -o-transition: color 200ms linear;
+        transition: color 200ms linear;
+        -webkit-transition: text-shadow 500ms linear;
+        -moz-transition: text-shadow 500ms linear;
+        -o-transition: text-shadow 500ms linear;
+        transition: text-shadow 500ms linear;
+        text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c; }
+      .portfolio__labels a:not(.active):active {
+        color: #e4e3ce !important; }
+    .portfolio__labels a.active, .portfolio__labels a:active {
+      -webkit-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      -moz-box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px #170c22, 0 2px 1px 0 rgba(121, 65, 135, 0.5), inset 0 0 4px 3px rgba(15, 8, 22, 0.2);
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1f132e), color-stop(100%, #311d47));
+      background-image: -webkit-linear-gradient(#1f132e, #311d47);
+      background-image: -moz-linear-gradient(#1f132e, #311d47);
+      background-image: -o-linear-gradient(#1f132e, #311d47);
+      background-image: linear-gradient(#1f132e, #311d47);
+      text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+      color: #e4e3ce; }
+      .portfolio__labels a.active:before, .portfolio__labels a:active:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 36px;
+        top: 1px;
+        left: -2px;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(91, 35, 105, 0)), color-stop(41%, #5b2369), color-stop(59%, #5b2369), color-stop(100%, rgba(91, 35, 105, 0)));
+        background-image: -webkit-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -moz-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -o-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        -webkit-box-shadow: -2px 0 6px 0 #5b2369;
+        -moz-box-shadow: -2px 0 6px 0 #5b2369;
+        box-shadow: -2px 0 6px 0 #5b2369; }
+      .portfolio__labels a.active:after, .portfolio__labels a:active:after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 1px;
+        height: 36px;
+        top: 1px;
+        right: -2px;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(91, 35, 105, 0)), color-stop(41%, #5b2369), color-stop(59%, #5b2369), color-stop(100%, rgba(91, 35, 105, 0)));
+        background-image: -webkit-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -moz-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: -o-linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        background-image: linear-gradient(rgba(91, 35, 105, 0), #5b2369 41%, #5b2369 59%, rgba(91, 35, 105, 0));
+        -webkit-box-shadow: 2px 0 6px 0 #5b2369;
+        -moz-box-shadow: 2px 0 6px 0 #5b2369;
+        box-shadow: 2px 0 6px 0 #5b2369; }
+    .portfolio__labels a.active {
+      z-index: 1000; }
+    .portfolio__labels a:active {
+      z-index: 999; }
+    .portfolio__labels a:last-of-type {
+      -webkit-border-radius: 0 7px 7px 0;
+      -moz-border-radius: 0 7px 7px 0;
+      -ms-border-radius: 0 7px 7px 0;
+      -o-border-radius: 0 7px 7px 0;
+      border-radius: 0 7px 7px 0; }
+    .portfolio__labels a:first-of-type {
+      -webkit-border-radius: 7px 0 0 7px;
+      -moz-border-radius: 7px 0 0 7px;
+      -ms-border-radius: 7px 0 0 7px;
+      -o-border-radius: 7px 0 0 7px;
+      border-radius: 7px 0 0 7px;
+      left: 0; }
+    .portfolio__labels a:nth-of-type(2) {
+      left: 51px; }
+    .portfolio__labels a:nth-of-type(3) {
+      left: 102px; }
+    .portfolio__labels a:nth-of-type(4) {
+      left: 153px; }
+    .portfolio__labels a:nth-of-type(5) {
+      left: 204px; }
+    .portfolio__labels a:nth-of-type(6) {
+      left: 255px; }
+    .portfolio__labels a:nth-of-type(7) {
+      left: 306px; }
+    .portfolio__labels a:nth-of-type(8) {
+      left: 357px; }
+    .portfolio__labels a i:before {
+      margin-left: 2px;
+      font-size: 22px; }
+    .portfolio__labels a i.icon-bar-chart:before {
+      font-size: 20px;
+      margin-top: 0px; }
+    .portfolio__labels a i.icon-sync:before {
+      font-size: 20px;
+      margin-left: 3px;
+      margin-top: 1px; }
+    .portfolio__labels a i.icon-download:before {
+      font-size: 19px;
+      margin-top: 1px;
+      margin-left: 4px; }
+
+      .project-hover p {
+        font-size: 14px;
+      }
+      ul.filters > li {
+        list-style: none;
+        display: inline-block;
+      }
+      
+      ul.filters > li > a {
+        display: block;
+        color: #434e5e;
+        text-decoration: none;
+        padding: 5px 20px;
+      }
+      
+      ul.filters > li > a:hover {
+        background-color: #e6e9ed;
+      }
+      
+      ul.filters > li.active > a {
+        color: #fff;
+        background-color: rgba(252, 41, 74, 1);
+      }
+      
+      .filters.filters-tag {
+        display: inline-block;
+        padding: 0.25em 0.4em;
+        font-size: 75%;
+        line-height: 1;
+        text-align: center;
+      }
+      
+      ul.filters.filters-tag > li > a {
+        display: block;
+        color: #434e5e;
+        border-radius: 0.25rem;
+        padding: 0.3rem 0.6rem;
+      }
+      
+      ul.filters.filters-tag > li.active > a {
+        color: #fff;
+        background-color: rgba(252, 41, 74, 0.8);
+      }
+      
+      .filters-tag {
+        font-size: 0.9rem;
+      }
+      
+      ul.filters {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 30px 0;
+      }
+      .project {
+        position: relative;
+        margin-bottom: 50px;
+        color: #000;
+        border-radius: 0;
+        border: 1px solid #eee;
+        background-color: #fff;
+        box-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.075);
+      }
+      
+      .project-head {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .project-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        background-color: rgba(67, 78, 94, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        -webkit-transition: ease-in-out 0.2s;
+        -moz-transition: ease-in-out 0.2s;
+        -ms-transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.2s;
+      }
+      
+      .project-hover {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #10b99e91;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+        -webkit-transition: ease-in-out 0.2s;
+        -moz-transition: ease-in-out 0.2s;
+        -ms-transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.2s;
+      }
+      
+      .project-body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      
+      h4.title {
+        color: #434e5e;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+      
+      .project-btn {
+        margin-bottom: -40px;
+        font-size: 0.9rem;
+        background-color: #fff;
+        color: #222;
+        border: 1px solid #eee;
+        border-radius: 0;
+        width: 120px;
+        box-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.075);
+      }
+      
+      .project-btn:hover {
+        background-color: rgba(252, 41, 74, 1);
+        color: #fff;
+      }
+
+
+
+
+
+
+

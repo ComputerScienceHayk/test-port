@@ -1,0 +1,68 @@
+/* ABOUT START */
+.abt {
+	width: 100%;
+	background: black;
+}
+.about_wrapper {
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+}
+.about_left,.about_right {
+	width: 50%;
+}
+.my_pic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about_right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.terminal {
+	width: 90%;
+    height: 400px;
+    background: #300a24;
+    border-radius: 5px;
+}
+.term_top {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    background-image: linear-gradient(#55534b,#4e4c45,#4e4c4587);
+    color: white;
+    font-family: 'VT323', courier;
+}
+.term_body{
+  display: flex;
+  flex-direction: column;
+}
+
+/*typing*/
+.Typewriter .Typewriter__wrapper {
+	color: #32fe23;
+	font-family: 'VT323', courier;
+}
+.Typewriter__cursor {
+	color: #32fe23;
+    font-weight: 900;
+}
+/* ABOUT END */
+
+@media only screen and (max-width: 768px) {
+	.abt {
+		padding: 10px 0  10px 0 ;
+	}
+	.about_wrapper {
+		min-height: 300px;
+		display: flex;
+		flex-direction: column;
+	}
+	.about_left,.about_right {
+		width: 100%;
+	}
+}

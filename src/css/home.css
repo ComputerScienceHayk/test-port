@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+/*html {*/
+/*    height: 100%;*/
+/*    background-color: #22374C;*/
+/*}*/
+
+#main {
+    background: #ccc;
+    background: url('../images/bg1.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* cursor: none; */
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #22374C;
+    overflow: hidden;
+}
+
+#shadow {
+    margin: 0 auto 0 auto;
+    font-size: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#lantern {
+    position: sticky;
+    /* background: url('https://res.cloudinary.com/dc4stsmlc/image/upload/v1570612772/Codepen/glowstick_hmpnql.png') no-repeat; */
+    background-size: contain;
+    width: 150px;
+    height: 140px;
+}
+
+#lantern:before {
+    position: absolute;
+    top: -538px;
+    left: -517px;
+    height: 1200px;
+    width: 1200px;
+    content: '';
+    border-radius: 50%;
+    z-index: -4;
+    background: -webkit-radial-gradient(rgba(116, 253, 176, 0.8) -1%, rgba(164, 255, 141, 0.49) 16%, rgba(156, 254, 132, 0.42) 21%, transparent 57%);
+     /*background: -moz-gradient(rgba(116, 253, 176, 0.8) -1%, rgba(164, 255, 141, 0.49) 16%, rgba(156, 254, 132, 0.42) 21%, transparent 57%);*/
+    background: radial-gradient(rgba(116, 253, 176, 0.8) -1%, rgba(164, 255, 141, 0.49) 16%, rgba(156, 254, 132, 0.42) 21%, transparent 57%);
+
+}
+
+#shadow {
+    color: #E0E1D8;
+    letter-spacing: 0.05em;
+    text-shadow: rgb(60, 60, 60) 0px 0px 0px, rgb(55, 55, 55) 1.32813px 0.945185px 0.2px, rgb(50, 50, 50) 2.65625px 1.89037px 0.4px, rgb(45, 45, 45) 3.98438px 2.83556px 0.6px, rgb(40, 40, 40) 5.3125px 3.78074px 0.8px, rgb(35, 35, 35) 6.64063px 4.72593px 1px, rgb(30, 30, 30) 7.96875px 5.67111px 1.2px, rgb(25, 25, 25) 9.29688px 6.6163px 1.4px, rgb(20, 20, 20) 10.625px 7.56148px 1.6px, rgb(15, 15, 15) 11.9531px 8.50667px 1.8px, rgb(10, 10, 10) 13.2813px 9.45185px 2px, rgb(5, 5, 5) 14.6094px 10.397px 2.2px, rgb(0, 0, 0) 15.9375px 11.3422px 2.4px, rgb(0, 0, 0) 17.2656px 12.2874px 2.6px, rgb(0, 0, 0) 18.5938px 13.2326px 2.8px, rgba(0, 0, 0, 0.901961) 19.9219px 14.1778px 35px;
+}
+
+.hello-text {
+    width: 40%;
+    position: absolute;
+    left: 44%;
+    top: 61%;
+}
+.hello-text .Typewriter .Typewriter__wrapper{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.hello-text .Typewriter .Typewriter__cursor{
+    display: none;
+}

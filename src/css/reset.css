@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    overflow-x: hidden;
+}
+img {
+    -webkit-user-drag: none;
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #32fe23;
+    font-family: 'VT323', courier;
+}
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+a:active {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
